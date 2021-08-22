@@ -10,7 +10,8 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* outline: none!important; */
+    font-weight: 700;
 }
 
 a:hover {
@@ -133,7 +134,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /* color: rgba(255, 255, 255, .6); */
+    color :rgb(48, 48, 48);
 }
 
 .d-bloc .a-btn:hover,
@@ -284,7 +286,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 35px;
 }
 
 .navbar {
@@ -653,6 +655,9 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+a {
+    font-weight: 700;
+}
 
 .container {
     max-width: 1000px;
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -695,7 +700,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -707,6 +712,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    position: relative;
 }
 
 h3 {
@@ -753,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,12 +781,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(244, 172, 79)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    border-color: rgb(209, 65, 75);
+    background: rgb(48, 48, 48);
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -789,7 +796,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: rgb(244, 172, 79)!important;
 }
 
 .ltc-white:hover {
@@ -1039,4 +1046,25 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.gras{
+    font-weight: 700;
+}
+.citation{
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+}
+.source{
+    font-weight: 600;
+}
+.whitefooter{
+    color: rgb(48, 48, 48)!important;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-left: 11px;
+    margin-top: 30px;
+}
+.hidden{
+    visibility: hidden;
 }
