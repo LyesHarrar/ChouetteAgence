@@ -1068,3 +1068,14 @@ h4 {
 .hidden{
     visibility: hidden;
 }
+.customsize{
+    font-size: 20px;
+    max-width: 100%;
+}
+.couleurclaire{
+    color: white!important;
+}
+label{
+    font-size: 17px;
+    font-weight: 400;
+}
