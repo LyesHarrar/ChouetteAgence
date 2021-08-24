@@ -17,6 +17,11 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    text-shadow: 0px 0px 16px rgb(0 0 0 / 81%);
+}
+.navlink:hover{
+    text-shadow: none;
+    color: rgb(209, 65, 75)!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -508,7 +513,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .4);
     box-shadow: none;
 }
 
@@ -794,8 +799,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: rgb(244, 172, 79)!important;
+    color: rgb(48, 48, 48)!important;
 }
 
 .ltc-white {
@@ -858,13 +863,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -883,8 +888,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left, 0px);
+        padding-right: env(safe-area-inset-right, 0px);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -894,8 +899,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left, 0px);
+        padding-right: env(safe-area-inset-right, 0px);
     }
 }
 
@@ -1069,10 +1074,27 @@ h4 {
 }
 label{
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .noircir{
     background-color: black;
+}
+i{
+    font-size: 1.1em;
+}
+.centrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.centrer p{
+    font-size: 1.3em;
+    line-height: 3;
+}
+.nodecolink:hover{
+    color: rgb(209, 65, 75)!important;
+    text-shadow : none;
 }
 @media (max-width: 400px) {
     .bloc {
@@ -1081,12 +1103,12 @@ label{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .bloc-mob-center-text {
         text-align: center;
     }
     p{
-        font-size: 21px;
+        font-size: 17px;
     }
     .citation{
         font-size: 20px;
@@ -1094,5 +1116,29 @@ label{
     a[data-lightbox]{
         display: flex;
         justify-content: center;
+        margin-top: 50px;
+    }
+    .portfolio-thumb{
+        width: 23em;
+    }
+    .portfolio-row{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .centrer{
+        height: 170px;
+        padding-top: 60px;
+    }
+    .centrer p{
+        line-height: 1.4;
+    }
+    .gras{
+       font-size: 30px;
+    }
+    .customsize, label{
+        font-size: 16px;
     }
 }
