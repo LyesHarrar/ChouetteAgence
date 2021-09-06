@@ -16,7 +16,7 @@ ainsi qu'une [maquette du site en l'état actuel](https://s3-eu-west-1.amazonaws
 
 ## Outils et languages pour la réalisation du projet
 
-- Le projet à été réalisé en **HTML5/CSS3*
+- Le projet à été réalisé en **HTML5/CSS3**
 - un [rapport d'optimisation](https://github.com/LyesHarrar/ChouetteAgence/blob/main/docs/P4_03_rapport_optimisation.pdf) ainsi qu'une [analyse pour chaque partie du site qui n’est pas optimisée](https://github.com/LyesHarrar/ChouetteAgence/blob/main/docs/P4_01_analyse.xlsx) que vous trouverez dans le dossier [/docs](https://github.com/LyesHarrar/ChouetteAgence/tree/main/docs) sont présents, détaillant les erreurs détéctées, et les différents outils utilisés pour corriger/optimiser chaque aspect du site.
 - 
 ## Contact
