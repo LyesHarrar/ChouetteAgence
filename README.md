@@ -2,6 +2,7 @@
 
 Au sein du Projet n°4 du parcours [développeur web chez OpenClassrooms](https://openclassrooms.com/fr/paths/185-developpeur-web#path-tabs) le but étant que le site de l'agence soit mieux référencé en tapant “Entreprise web design Lyon” sur Internet.
 
+
 ![desktop reservia](/docs/screen.png)
 
 ## Cahier des charges
